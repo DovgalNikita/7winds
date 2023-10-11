@@ -1,0 +1,3 @@
+interface ISVG{
+    color:string;
+}
