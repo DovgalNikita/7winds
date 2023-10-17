@@ -1,0 +1,30 @@
+.block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:44px;
+    border-bottom: 1px solid #414144;
+
+
+    .textBlock{
+        color:#A1A1AA;
+        margin-left:20px;
+
+        .title{
+            font-size: 14px;
+            line-height: normal;
+        }
+        .abbr{
+            font-size: 10px;
+            line-height: normal;
+        }
+    }
+
+    .switchButton{
+        margin-right:7px;
+        display: flex;
+        align-items: center;
+        height:100%;
+        cursor:pointer;
+    }
+}
